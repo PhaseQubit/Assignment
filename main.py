@@ -5,9 +5,9 @@ from starlette.responses import RedirectResponse
 # I used PyCharm professional version, so it was a bit easier to code this with the AI code assistant.
 app = FastAPI()
 
-GITHUB_CLIENT_ID = "f60ab37c9e947ce42cad"
+GITHUB_CLIENT_ID = "Your client ID"
 REDIRECT_URI = "http://localhost:8000/auth/github/callback"
-CLIENT_SECRET = "ec7d28767daa3c9cf7303090087fdfad8e32d08c"
+CLIENT_SECRET = "Your client secret"
 
 
 @app.get("/")
